@@ -1,0 +1,4 @@
+<marquee bgcolor="#000080" style="color: #FFFFFF; font-family: Book Antiqua" behavior="scroll" > Cool Facts(Behavior : Scroll)</marquee>
+
+li { cursor: text ;}
+a {cursor: pointer;}

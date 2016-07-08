@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    width: 1000000000px;
+    height: 1000000000px;
+    background-color: red;
+    position: relative;
+    -webkit-animation: myfirst 5s linear 0s infinite alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 5s linear 0s infinite alternate;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {background-color:red; }
+    25%  {background-color:yellow; }
+    50%  {background-color:blue; }
+    75%  {background-color:white; }
+    100% {background-color:cyan;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {background-color:red;}
+    25%  {background-color:yellow; }
+    50%  {background-color:blue; }
+    75%  {background-color:white; }
+    100% {background-color:cyan; }
+}
+</style>
+</head>
+<body>
+
+
+<div></div>
+
+</body>
+
+</html>
+
+
